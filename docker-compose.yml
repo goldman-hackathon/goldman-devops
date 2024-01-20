@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  goldman-back:
+    image: goldman-back
+    ports:
+      - "8000:8000"
+
+  goldman-front:
+    image: goldman-front
+    ports:
+       - "3000:3000"
